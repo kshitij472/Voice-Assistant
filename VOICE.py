@@ -6,8 +6,8 @@ load_dotenv()
 
 # ❌ GALAT: os.getenv("agent_9801....")
 # ✅ Sahi: env variable ka NAAM pass karo
-AGENT_ID = os.getenv("AGENT_ID")
-API_KEY = os.getenv("API_KEY")
+AGENT_ID = os.getenv("agent_9801kae42540fybr0kxyxbbwggdz")
+API_KEY = os.getenv("Ask_06658ff9ee6309af11ad288f05f845a8c06dbc488d7d154fY")
 
 # Basic check – agar env se kuch nahi aaya to clearly error de
 if not AGENT_ID or not API_KEY:
