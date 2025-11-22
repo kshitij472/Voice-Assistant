@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 
 # .env load karo (same folder me .env hona chahiye)
-load_dotenv("hel.env")
+load_dotenv(".env")
 
 # ❌ GALAT: os.getenv("agent_9801....")
 # ✅ Sahi: env variable ka NAAM pass karo
